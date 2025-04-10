@@ -35,16 +35,12 @@ venv\Scripts\activate
 ```
 
 ### Install Dependencies
-Make sure you have the required Python packages:
-```bash
-pip install flask flask-cors youtube-transcript-api
-```
-Alternatively, if a requirements.txt is provided, run:
 ```bash
 pip install -r requirements.txt
 ```
 
 ### Modify popup.js to include your OpenAI API key
+This should be at the top of the file
 
 ### Run the Backend
 Start the Flask server:
