@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Transcript Summarizer</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; padding: 10px; }
+    #summary { margin-top: 10px; white-space: pre-wrap; }
+    button { margin: 5px; }
+    textarea { width: 100%; }
+  </style>
+</head>
+<body>
+  <h3>Transcript Summarizer</h3>
+  <button id="conciseBtn">Concise Summary</button>
+  <button id="usefulBtn">Most Useful Information</button>
+  <button id="detailedBtn">Detailed Summary</button>
+  <br>
+  <textarea id="customPrompt" rows="3" placeholder="Enter custom prompt here"></textarea>
+  <br>
+  <button id="customBtn">Submit Custom Prompt</button>
+  <div id="summary"></div>
+  <div id="downloadLink"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
